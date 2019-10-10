@@ -1,3 +1,6 @@
+J'ai changé tout mon portfolio.
+
+
 # Projet 2 – Jekyll
 
 Ce projet vous introduira à la génération de sites statiques grâce à **Jekyll**. Durant les prochaines semaines vous découvrirez les bases du **templating** et de l'abstraction de contenu, tout en étoffant les notions de workflow Git et GitHub Pages acquises lors du projet précédent. Vous devrez faire preuve de grande rigueur dans l'organisation de votre projet, sinon Jekyll ne fonctionnera pas. Chaque chose à sa place.  
@@ -11,7 +14,7 @@ Le rendu aura lieu le **8 novembre**.
 Installation du Boilerplate
 ======
 
-[Jekyll](https://jekyllrb.com) est un programme Ruby. Pour l'installer il est nécessaire que vous passiez par le terminal (c'est du sérieux). 
+[Jekyll](https://jekyllrb.com) est un programme Ruby. Pour l'installer il est nécessaire que vous passiez par le terminal (c'est du sérieux).
 
 Installation des outils de ligne de commande
 ------
@@ -19,7 +22,7 @@ Première chose, ouvrez votre terminal. Puis installez les outils de ligne de co
 ```
 xcode-select --install
 ```
-Vous devriez voir une alerte, cliquez sur **installer**. Attendez la fin de l'installation avant de continuer. 
+Vous devriez voir une alerte, cliquez sur **installer**. Attendez la fin de l'installation avant de continuer.
 
 Installation de Ruby > 2.4
 ------
@@ -27,7 +30,7 @@ Entrez la commande suivante dans le terminal
 ```
 ruby -v
 ```
-Si la version indiquée est plus grande ou égale à 2.4, vous pouvez passer directement à la section suivante. Sinon, veuillez suivre les instructions qui suivent. 
+Si la version indiquée est plus grande ou égale à 2.4, vous pouvez passer directement à la section suivante. Sinon, veuillez suivre les instructions qui suivent.
 
 Installez le logiciel de gestion de paquets [Homebrew](https://brew.sh) (extrêmement utile), avec la commande suivante:
 
@@ -46,11 +49,11 @@ Quand c'est fait, ajoutez Ruby à votre configuration avec la commande suivante:
 export PATH=/usr/local/opt/ruby/bin:$PATH
 ```
 
-Finalement, vérifiez le tout avec: 
+Finalement, vérifiez le tout avec:
 ```
 ruby -v
 ```
-Bravo, vous avez installé tout l'environnement de programmation Ruby depuis votre ligne de commande. 
+Bravo, vous avez installé tout l'environnement de programmation Ruby depuis votre ligne de commande.
 
 Installation de Jekyll
 ------
@@ -59,7 +62,7 @@ Entrez la commande suivante dans votre terminal
 ```
 gem install jekyll bundler
 ```
-Clonez votre repo grâce à GitHub Desktop, puis dirigez votre le ligne de commande dans le dossier que le clone à créé. Vous pouvez aussi glisser le dossier en question dans votre fenêtre de terminal. 
+Clonez votre repo grâce à GitHub Desktop, puis dirigez votre le ligne de commande dans le dossier que le clone à créé. Vous pouvez aussi glisser le dossier en question dans votre fenêtre de terminal.
 
 ```
 cd là/où/se/trouve/le/dossier
@@ -93,8 +96,7 @@ Ressources
 ======
 
 * [Jekyll](https://jekyllrb.com) – Le générateur de site statique.
-* [Liquid](https://shopify.github.io/liquid/) – Le language de templating que nous allons utiliser. 
+* [Liquid](https://shopify.github.io/liquid/) – Le language de templating que nous allons utiliser.
 * [SCSS](https://sass-lang.com) – Un précompilateur pour faire des choses formidables avec le CSS, comme introduire des variables. Vous pouvez l'utiliser, ou non. C'est votre choix. On peut écrire du CSS standard dans un fichier .SCSS
-* [GitHub Pages](https://pages.github.com) – La documentation pour le système d'hébergement GitHub que nous avons déjà utilisé sur le projet précédent. 
-* [Forestry](https://forestry.io) – Si nous avons le temps ou si vous êtes très en avance, vous intégrerez le CMS Forestry à votre projet. 
-
+* [GitHub Pages](https://pages.github.com) – La documentation pour le système d'hébergement GitHub que nous avons déjà utilisé sur le projet précédent.
+* [Forestry](https://forestry.io) – Si nous avons le temps ou si vous êtes très en avance, vous intégrerez le CMS Forestry à votre projet.
