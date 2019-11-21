@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" | relative_url }}">
 {% include head.html %}
   <body>
     {% include header.html %}
-    <img class="picture" src="{{ page.image }}" />
+    <img class="picture" src="{{ page.image | relative_url }}" />
     <h1><i>{{ page.ranking}}</i></h1>
     <h1><i>{{ page.title }}</i> / {{ page.in_the_film }}</h1>
     {{ content}}

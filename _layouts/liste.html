@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" | relative_url }}">
 {% include head.html %}
   <body>
     {% include header.html %}
@@ -7,9 +7,9 @@
     <div>
 
       <h1 class="rank">{{ robot.ranking }}.
-        <a class="maj" href="{{robot.url}}">{{ robot.title }}</a>
+        <a class="maj" href="{{robot.url | relative_url }}">{{ robot.title }}</a>
       </h1>
-      <img class="picture" src="{{ robot.image }}" />
+      <img class="picture" src="{{ robot.image | relative_url }}" />
       <p>{{robot.short_description}}"</p>
     </div>
     {% endfor %}
