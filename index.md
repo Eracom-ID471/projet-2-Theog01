@@ -1,3 +1,3 @@
 ---
-layout: liste
+layout: home
 ---

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" | relative_url }}">
+{% include head.html %}
+  <body>
+    {% include home-header.html %}
+    <div>
+
+
+      <h1>{{ rotos.ranking }}.
+        <a class="maj" href="{{rotos.url | relative_url }}">{{ rotos.title }}</a>
+      </h1>
+      <img class="picture" src="{{ rotos.image | relative_url }}" />
+      <p>{{rotos.short_description}}</p>
+    </div>
+    {% endfor %}
+    {% include footer.html %}
+  </body>
+</html>
