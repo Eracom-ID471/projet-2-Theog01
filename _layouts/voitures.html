@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+{% include head.html %}
+  <body>
+    {% include header.html %}
+    {% for voiture in site.voitures %}
+    <div>
+
+      <h1 class="rank">{{ voiture.ranking }}.
+        <a class="maj" href="{{voiture.url}}">{{ voiture.title }}</a>
+      </h1>
+      <img class="picture" src="{{ voiture.image | relative_url }}" />
+      <p>{{voiture.short_description}}</p>
+      <p>{{voiture.moteur}}</p>
+    </div>
+    {% endfor %}
+    {% include footer.html %}
+  </body>
+</html>

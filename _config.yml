@@ -5,6 +5,8 @@ title: "Top 5" # the name of your site, e.g. ACME Corp.
 collections:
   robots:
     output: true
+  voitures:
+    output: true
 
 plugins:
   - jekyll-admin
