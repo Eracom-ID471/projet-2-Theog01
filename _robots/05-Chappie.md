@@ -2,7 +2,7 @@
 layout: post
 ranking: 5
 title: Chappie
-in the film: Chappie
+in_the_film: Chappie
 puissance: 3/10
 image: "/assets/img/5.jpg"
 short_description: Chappie apprend très vite

@@ -2,7 +2,7 @@
 layout: post
 ranking: 2
 title: Alita
-in the film: Alita
+in_the_film: Alita
 puissance: 8.5/10
 image: "/assets/img/2.jpg"
 short_description: Alita est la plus forte des guerrier

@@ -1,8 +1,8 @@
 ---
-layout: voitures
+layout: post
 ranking: 3
 title: Zenvo
-in the film: Pacific Rime
+in_the_film: Zenvo
 puissance: 6/10
 image: "/assets/img/3-3.jpg"
 short_description: Helro arrière amovible

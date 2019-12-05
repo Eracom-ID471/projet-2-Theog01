@@ -1,8 +1,8 @@
 ---
-layout: voitures
+layout: post
 ranking: 2
-title: Mclaren Senna
-in the film: Alita
+title: Senna
+in_the_film: Mclaren
 puissance: 8.5/10
 image: "/assets/img/2-2.jpg"
 short_description: La voiture la plus légére

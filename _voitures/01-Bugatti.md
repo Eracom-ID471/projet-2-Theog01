@@ -1,8 +1,8 @@
 ---
-layout: voitures
+layout: post
 ranking: 1
-title: Bugatti
-in_the_film: Transformers
+title: Chiron
+in_the_film: Bugatti
 moteur: Moteur; double v8
 image: "/assets/img/1-1.jpg"
 short_description: La voiture la plus rapide du monde

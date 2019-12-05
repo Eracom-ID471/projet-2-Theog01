@@ -1,8 +1,8 @@
 ---
-layout: voitures
+layout: post
 ranking: 5
-title: Ferrari Tributo
-in the film: Chappie
+title: Tributo
+in_the_film: Ferrari
 puissance: 3/10
 image: "/assets/img/5-5.jpg"
 short_description: La nouvelle Ferrari

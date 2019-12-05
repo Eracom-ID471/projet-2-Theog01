@@ -2,7 +2,7 @@
 layout: post
 ranking: 3
 title: Gipsy Danger
-in the film: Pacific Rime
+in_the_film: Pacific Rime
 puissance: 6/10
 image: "/assets/img/3.png"
 short_description: Gipsy Danger est le plus vieux jagger encre en état

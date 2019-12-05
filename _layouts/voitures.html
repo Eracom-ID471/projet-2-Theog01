@@ -7,7 +7,7 @@
     <div>
 
       <h1 class="rank">{{ voiture.ranking }}.
-        <a class="maj" href="{{voiture.url}}">{{ voiture.title }}</a>
+        <a class="maj" href="{{voiture.url | relative_url }}">{{ voiture.title }}</a>
       </h1>
       <img class="picture" src="{{ voiture.image | relative_url }}" />
       <p>{{voiture.short_description}}</p>

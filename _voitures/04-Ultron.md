@@ -1,8 +1,8 @@
 ---
-layout: voitures
+layout: post
 ranking: 4
-title: Pagani Huayra
-in the film: Avengers
+title: Huayra
+in_the_film: Pagani
 puissance: 4/10
 image: "/assets/img/4-4.jpg"
 short_description: Lourd
